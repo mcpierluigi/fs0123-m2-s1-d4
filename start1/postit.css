@@ -1,0 +1,38 @@
+.lavagna{
+    background-color: grey;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.post{
+    width: 200px;
+    max-height: 150px;
+    font-family: 'Indie Flower', sans-serif;
+    text-align: center;
+    padding-block: 50px;
+    margin-block:25px;
+    box-shadow: 5px 5px 7px rgba(33, 33, 33, .7);    
+}
+
+.giallo{
+    background-color: cornsilk;
+    transform: rotate(-5deg);
+}
+
+.viola{
+    background-color: lavender;
+    transform: rotate(-5deg);
+}
+
+.verde{
+    background-color: lightgreen;
+    transform: rotate(5deg);
+}
+
+.post:hover {
+    transform: scale(1.5);
+    position: relative;
+    z-index: 1;
+}
