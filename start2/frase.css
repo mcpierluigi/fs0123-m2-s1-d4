@@ -1,3 +1,21 @@
+#testoAlternato {
+    width: 450px;
+    height: 70px;
+    border: 1px solid lavender;
+    padding: 15px;
+    font-family: 'Bree Serif', sans-serif;
+    margin-inline: auto;
+}
+
+.parole {
+    color: lightblue;
+}
+
+i {
+    position: absolute;
+}
+
+
 /*
 1 creazione del testo e formattazione di 1 parola da far ruotare
 2 inserimento delle altre 2 parole
